@@ -1,0 +1,244 @@
+
+body{
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+      position: relative;
+  margin-bottom: 250px; /* Igual a la altura del footer */
+}
+header{
+    width: 1466px;
+    height: 150px;
+    background-color: rgb(16, 15, 29);
+
+    position: fixed; /* Mantiene el header fijo al hacer scroll */
+    top: 0;          /* Alinea al borde superior */
+    left: 50%;
+    transform: translateX(-50%); /* Mueve el elemento hacia la izquierda la mitad de su propio ancho */
+
+    z-index: 1000;   /* Mantiene el header sobre el contenido */  
+    transition: 0.2s;
+    
+    
+    
+}
+
+header img{
+
+    height: 100%;
+    
+
+}
+
+.scroll-down header {
+  transform: translateY(-500%);
+}
+.scroll-up header {
+  transform: translateY(0);
+
+  transform: translateX(-50%);
+}
+
+    
+
+
+nav{
+    width: 1466px;
+    height: 50px;
+    background-color: rgb(24, 125, 165);
+    position: fixed;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%); /* Mueve el elemento hacia la izquierda la mitad de su propio ancho */
+    z-index: 1000;
+    transition: 0.2s;
+
+}
+
+nav a{
+    padding: 50px 80px 0px 20px;
+    text-align: center;
+
+    font-family: Fascinate Inline;
+    font-size: larger;
+    color: rgb(106, 237, 233);
+
+    
+}
+
+
+.scroll-down nav {
+  transform: translateY(-5000%);
+
+
+}
+.scroll-up nav {
+
+transform: translateY(0);
+
+transform: translateX(-50%);
+
+  
+
+}
+
+
+main{
+
+/*    width: 1366px;
+    height: 2000px;*/
+    width: 1466px;
+    height: 2000px;
+    
+    padding-top: 200px;
+    
+
+    background-color: rgb(26, 21, 66);
+    margin: 0 auto;
+    color: rgb(168, 244, 241);
+}
+
+main h1{
+    margin-left: 225px;
+    
+    font-family: Fascinate Inline;
+    font-size: larger;
+}
+
+main h2{
+    
+    font-family: Fascinate Inline;
+    font-size: larger;
+}
+main h3{
+    
+    font-family: Fascinate Inline;
+    font-size: larger;
+}
+
+main p{
+
+    padding: 0 50px;
+
+}
+.info1{
+    width: 400px;
+    height: 400px;
+    margin-left: 425px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgba(6, 59, 80, 0.233);
+    font-family: monoton;
+    font-size: small;
+}
+
+.info2{
+    width: 400px;
+    height: 400px;
+    float: left;
+    text-align: center;
+    background-color: rgba(6, 59, 80, 0.233);
+    padding-top: 15px;
+        margin-top: 20px;
+        font-family: monoton;
+        font-size: small;        
+    }
+
+.foto1{
+    width: 400px;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+
+.foto1 img{
+    height: 100%;
+}
+.foto2{
+    width: 400px;
+    height: 400px;
+    margin-left: 425px;
+    margin-top: 20px;
+    text-align: center;
+
+
+}
+
+.foto2 img{
+
+    width: 100%;
+}
+
+.diseñador1{
+    margin-top: 30px;
+
+}
+
+
+.diseñador2{
+    margin-top: 75px;
+}
+
+
+.mapa{
+    
+    width:625px;
+    height: 450px;
+    background-color: rgba(6, 95, 168, 0.158);
+    text-align: center;
+    float: right;
+    margin-top: 150px;
+    font-family: Fascinate inline;
+    font-size: small;
+
+}
+
+.mapa iframe{
+    height: 100%;
+}
+
+.boleto{
+    width:625px;
+    height: 500px;
+    float: right;
+    margin-top: 150px;
+}
+
+
+.boleto img{
+    height: 100%;
+    width: 100%;
+}
+
+
+footer{
+
+    width: 1466px;
+    height: 250px;
+    background-color: rgb(4, 94, 94);
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1; /* Se coloca detrás del contenido */
+
+
+
+}
+.caja1{
+    padding-top: 12px;
+}
+.caja2{
+    padding-right: 85%;
+    
+}
+
+footer a{
+    display: block;
+    padding: 8px;
+    font-family: Fascinate Inline;
+    font-size: large;
+    color: rgb(1, 178, 69);
+    
+
+}
